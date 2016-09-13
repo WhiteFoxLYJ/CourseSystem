@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/xgxt_login.css" />
+<title>用户登录-学工系统</title>
+</head>
+<body>
+
+<div id="header">
+	<div class="header_title">
+		<span class="title_con">学工系统</span>
+	</div>
+</div>
+<form action="loginAction.action" method="post">
+<div id="content">
+	<center>
+		<div class="con">
+		<div class="con_title">
+			<span class="con_title_sp">欢迎登录学工系统</span>
+		</div>
+		<div class="con_panel">
+			<div class="con_input">
+				<span>用户名：</span><input type="text" placeholder="学号/工号" name="Id" />
+			</div>
+			<div class="con_input">
+				<span>密&nbsp;&nbsp;&nbsp;&nbsp;码：</span><input type="text" placeholder="密码" name="Password"/>
+			</div>
+			<div class="con_select">
+				<!-- <input type="radio" name="type" value="学生" />学生
+				<input type="radio" name="type" value="教师" />教师
+				<input type="radio" name="type" value="管理员" />管理员 -->
+				<select>
+					<option ></option>
+				</select>
+			</div>
+			<input type="submit" value="登    录" class="submit-btn"/>
+		</div>
+	</div>
+	</center>
+</div>
+</form>
+<div style="text-align:center;">
+<!-- <p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p> -->
+</div>
+
+</body>
+</html>
